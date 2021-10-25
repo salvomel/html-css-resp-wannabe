@@ -74,6 +74,48 @@ img {
 
 /* --- EXCERCISE SOLUTIONS --- */
 
+/* Tablet */
+@media screen and (max-width: 779px) {
+  
+  .row {
+    max-width: 700px;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    margin-top: 40px;
+  }
+
+  img {
+    height: 170px;
+  }
+  
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 50%;
+    margin-top: 40px;
+  }
+  
+  #steps .row>.right {
+    float: none;
+    display: inline-block;
+  }
+
+  #why .row img {
+    height: 120px;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 40px;
+  }
+
+}
+
 /* Mobile */
 @media screen and (max-width: 420px) {
   
@@ -113,3 +155,4 @@ img {
   }
 
 }
+
